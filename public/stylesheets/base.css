@@ -1,7 +1,19 @@
+h1 {
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+  font-family: Helvetica;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2em;
+}
+
 .logo {
   float: left;
   width: 33%;
-  height: 260px;
+  height: 210px;
   text-align: center;
   }
 
