@@ -10,6 +10,14 @@ h2 {
   font-size: 2em;
 }
 
+a {
+  text-decoration: none;
+  color: #888;
+  font-weight: bold;
+  font-family: Verdana;
+  font-size: 1.5em;
+}
+
 .logo {
   float: left;
   width: 33%;
@@ -18,12 +26,9 @@ h2 {
   }
 
   .logo a {
-    text-decoration: none;
-    color: #aaa;
-    font-weight: bold;
-    font-family: Verdana;
     font-size: 2em;
-    }
+  }
+
 
     .logo a img {
       height:  100px;
