@@ -6,8 +6,12 @@ h1 {
 }
 
 .label {
+  text-align: center;
   font-size: 2em;
   color: #347C17;
+}
+body { 
+  margin: 30px;
 }
 
 h2 {
