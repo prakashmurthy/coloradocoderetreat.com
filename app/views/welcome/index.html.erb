@@ -1,83 +1,80 @@
-<h1>Colorado Code Retreat</h1>
-  <br/>
-<div class="label">
-Promoting software craftsmanship in Colorado through frequent Code Retreats
-  <br/>
-  <%= link_to "What is a Code Retreat?", "http://coderetreat.com/" %>
-  <br/>
-  <%= link_to "December 3, 2011 - First Global Day of Code Retreat", "http://coderetreat.org/" %>
-  <br/>
+<div id="header">
+  <h1>Colorado Code Retreat</h1>
+  <div>Promoting software craftsmanship in Colorado through frequent Code Retreats</div>
 </div>
-  <br/>
-<h2>Global Day of Code Retreat - Colorado Events on Dec 3rd, 2011:</h2>
-<b>
-<ul>
-  <li><%= link_to "Boulder", "http://global-coderetreat-boulder.eventbrite.com/" %> : Facilitated by <%= link_to "Nick Howard", "http://twitter.com/baroquebobcat" %> & <%= link_to "Mike Gehard", "http://twitter.com/mikegehard" %>; 30 / 30 registrations. <%= link_to "SOLD OUT", "http://global-coderetreat-boulder.eventbrite.com/" %></li> 
-  <br/>
-  <li><%= link_to "Colorado Springs", "http://cospringsdec11.eventbrite.com/" %> : Facilitated by <%= link_to "Craig Anderson", "http://twitter.com/cootcraig" %> & <%= link_to "Solomon White", "http://twitter.com/rubysolo" %>; 15 / 20 registrations. <%= link_to "SIGN UP NOW", "http://cospringsdec11.eventbrite.com/" %></li> 
-  <br/>
-  <li><%= link_to "Denver", "http://www.eventbrite.com/event/2242350932/" %> : Facilitated by <%= link_to "Charley Baker", "http://twitter.com/charley_baker" %> & <%= link_to "Prakash Murthy", "http://twitter.com/_prakash" %>; 30 / 30 registrations. <%= link_to "SOLD OUT", "http://www.eventbrite.com/event/2242350932/" %></li> 
-  <br/>
-  <li><%= link_to "Fort Collins", "http://fortcollinsgdcr11.eventbrite.com/" %> : Facilitated by <%= link_to "Matt Rose", "http://twitter.com/composition9" %> & <%= link_to "Bill Tucker", "http://twitter.com/imbilltucker" %>; 14 / 20 registrations. <%= link_to "SIGN UP NOW", "http://fortcollinsgdcr11.eventbrite.com/" %></li> 
+
+<ul id="info" class="body">
+  <li><%= link_to "What is a Code Retreat?", "http://coderetreat.com/" %></li>
+  <li><%= link_to "December 3, 2011 - First Global Day of Code Retreat", "http://coderetreat.org/" %></li>
 </ul>
-</b>
+
+<h2>Global Day of Code Retreat - Colorado Events on Dec 3rd, 2011:</h2>
+
+<ul id="events" class="body">
+  <li><b><%= link_to "Boulder", "http://global-coderetreat-boulder.eventbrite.com/" %></b> : Facilitated by <%= link_to "Nick Howard", "http://twitter.com/baroquebobcat" %> & <%= link_to "Mike Gehard", "http://twitter.com/mikegehard" %>; 30 / 30 registrations. <%= link_to "SOLD OUT", "http://global-coderetreat-boulder.eventbrite.com/", :class => 'unavailable' %></li>
+  <li><b><%= link_to "Colorado Springs", "http://cospringsdec11.eventbrite.com/" %></b> : Facilitated by <%= link_to "Craig Anderson", "http://twitter.com/cootcraig" %> & <%= link_to "Solomon White", "http://twitter.com/rubysolo" %>; 15 / 20 registrations. <%= link_to "SIGN UP NOW", "http://cospringsdec11.eventbrite.com/", :class => 'available' %></li>
+  <li><b><%= link_to "Denver", "http://www.eventbrite.com/event/2242350932/" %></b> : Facilitated by <%= link_to "Charley Baker", "http://twitter.com/charley_baker" %> & <%= link_to "Prakash Murthy", "http://twitter.com/_prakash" %>; 30 / 30 registrations. <%= link_to "SOLD OUT", "http://www.eventbrite.com/event/2242350932/", :class => 'unavailable' %></li>
+  <li><b><%= link_to "Fort Collins", "http://fortcollinsgdcr11.eventbrite.com/" %></b> : Facilitated by <%= link_to "Matt Rose", "http://twitter.com/composition9" %> & <%= link_to "Bill Tucker", "http://twitter.com/imbilltucker" %>; 14 / 20 registrations. <%= link_to "SIGN UP NOW", "http://fortcollinsgdcr11.eventbrite.com/", :class => 'available' %></li>
+</ul>
 
 <h2>Location Sponsors</h2>
-<div>
-<div class="logo">
-  <%= link_to image_tag( "logos/uncubed.png" ), "http://uncubedspace.com" %><br />
-  <%= link_to "Uncubed Space", "http://uncubedspace.com" %>
+
+<div class="body">
+  <div class="logo">
+    <%= link_to image_tag( "logos/uncubed.png" ), "http://uncubedspace.com" %><br />
+    <%= link_to "Uncubed Space", "http://uncubedspace.com" %>
+  </div>
+  <div class="logo">
+    <%= link_to image_tag( "logos/cohere-logo2.png" ), "http://coherecommunity.com" %><br />
+    <%= link_to "Cohere Coworking", "http://coherecommnunity.com" %>
+  </div>
+  <div class="logo">
+    <%= link_to image_tag( "logos/livingsocial-logo.png" ), "http://livingsocial.com/" %><br />
+    <%= link_to "LivingSocial", "http://livingsocial.com/" %>
+  </div>
+  <div class="logo">
+    <%= link_to image_tag( "logos/enclavecooplogo.jpg" ), "http://enclavecoop.com" %><br />
+    <%= link_to "The Enclave", "http://enclavecoop.com" %>
+  </div>
 </div>
-<div class="logo">
-  <%= link_to image_tag( "logos/cohere-logo2.png" ), "http://coherecommunity.com" %><br />
-  <%= link_to "Cohere Coworking", "http://coherecommnunity.com" %>
-</div>
-<div class="logo">
-  <%= link_to image_tag( "logos/livingsocial-logo.png" ), "http://livingsocial.com/" %><br />
-  <%= link_to "LivingSocial", "http://livingsocial.com/" %>
-</div>
-<div class="logo">
-  <%= link_to image_tag( "logos/enclavecooplogo.jpg" ), "http://enclavecoop.com" %><br />
-  <%= link_to "The Enclave", "http://enclavecoop.com" %>
-</div>
-</div>
+
 <h2>Lunch, Breakfast & Coffee Sponsors</h2>
-<div>
-<div class="logo">
-  <%= link_to image_tag( "logos/ready_talk_logo.png" ), "http://readytalk.com" %><br />
-  <%= link_to "Ready Talk", "http://readytalk.com" %>
+
+<div class="body">
+  <div class="logo">
+    <%= link_to image_tag( "logos/ready_talk_logo.png" ), "http://readytalk.com" %><br />
+    <%= link_to "Ready Talk", "http://readytalk.com" %>
+  </div>
+  <div class="logo">
+    <%= link_to image_tag( "logos/pragmaticstudio.png" ), "http://pragmaticstudio.com" %><br />
+    <%= link_to "Pragmatic Studios", "http://pragmaticstudio.com" %>
+  </div>
+  <div class="logo">
+    <%= link_to image_tag( "logos/quickleft.png" ), "http://quickleft.com" %><br />
+    <%= link_to "Quick Left", "http://quickleft.com" %>
+  </div>
+  <div class="logo">
+    <%= link_to image_tag( "logos/coshx_labs.png" ), "http://coshx.com/" %><br />
+    <%= link_to "Coshx Labs", "http://coshx.com/" %>
+  </div>
+  <div class="logo">
+    <%= link_to image_tag( "logos/pivotal_tracker.png" ), "http://pivotaltracker.com" %><br />
+    <%= link_to "Pivotal Tracker", "http://pivotaltracker.com" %>
+  </div>
+  <div class="logo">
+    <%= link_to image_tag( "logos/sendgrid.jpeg" ), "http://sendgrid.com" %><br />
+    <%= link_to "SendGrid", "http://sendgrid.com" %>
+  </div>
+  <div class="logo">
+    <%= link_to image_tag( "logos/bittheory.png" ), "http://bittheory.com" %><br />
+    <%= link_to "BIT Theory", "http://bittheory.com" %>
+  </div>
+  <div class="logo">
+    <%= link_to image_tag( "logos/fullcontact.png" ), "http://fullcontact.com" %><br />
+    <%= link_to "Full Contact", "http://fullcontact.com" %>
+  </div>
+  <div class="logo">
+    <%= link_to image_tag( "logos/TEK-square.jpg" ), "http://teksystems.com" %><br />
+    <%= link_to "TEK Systems", "http://teksystems.com" %>
+  </div>
 </div>
-<div class="logo">
-  <%= link_to image_tag( "logos/pragmaticstudio.png" ), "http://pragmaticstudio.com" %><br />
-  <%= link_to "Pragmatic Studios", "http://pragmaticstudio.com" %>
-</div>
-<div class="logo">
-  <%= link_to image_tag( "logos/quickleft.png" ), "http://quickleft.com" %><br />
-  <%= link_to "Quick Left", "http://quickleft.com" %>
-</div>
-<div class="logo">
-  <%= link_to image_tag( "logos/coshx_labs.png" ), "http://coshx.com/" %><br />
-  <%= link_to "Coshx Labs", "http://coshx.com/" %>
-</div>
-<div class="logo">
-  <%= link_to image_tag( "logos/pivotal_tracker.png" ), "http://pivotaltracker.com" %><br />
-  <%= link_to "Pivotal Tracker", "http://pivotaltracker.com" %>
-</div>
-<div class="logo">
-  <%= link_to image_tag( "logos/sendgrid.jpeg" ), "http://sendgrid.com" %><br />
-  <%= link_to "SendGrid", "http://sendgrid.com" %>
-</div>
-<div class="logo">
-  <%= link_to image_tag( "logos/bittheory.png" ), "http://bittheory.com" %><br />
-  <%= link_to "BIT Theory", "http://bittheory.com" %>
-</div>
-<div class="logo">
-  <%= link_to image_tag( "logos/fullcontact.png" ), "http://fullcontact.com" %><br />
-  <%= link_to "Full Contact", "http://fullcontact.com" %>
-</div>
-<div class="logo">
-  <%= link_to image_tag( "logos/TEK-square.jpg" ), "http://teksystems.com" %><br />
-  <%= link_to "TEK Systems", "http://teksystems.com" %>
-</div>
-</div>
-<hr/>

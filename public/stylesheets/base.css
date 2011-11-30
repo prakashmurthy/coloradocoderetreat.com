@@ -1,22 +1,44 @@
-h1 {
-  text-align: center;
-  font-size: 3em;
-  font-weight: bold;
-  font-family: Helvetica;
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Arial;
+  font-size: 18px;
+  line-height: 1.4
 }
 
-.label {
-  text-align: center;
-  font-size: 2em;
-  color: #347C17;
+h1, h2, h3 {
+  font-family: "PT Sans";
+  font-weight: bold;
+  letter-spacing: -1px
 }
-body { 
-  margin: 30px;
+
+#header {
+  padding: 20px;
+  background-color: #FFFCCB;
+  text-align: center;
+  font-family: "PT Sans";
+  border-bottom: 1px solid silver;
+}
+
+#header h1 {
+  font-size: 50px;
+  text-shadow: 1px 1px 1px black;
+  margin: 0;
+  color: #BB3219;
+  text-transform: uppercase;
+}
+
+#header div {
+  font-size: 25px;
+  font-style: italic;
 }
 
 h2 {
   text-align: center;
-  font-size: 2em;
+  font-size: 35px;
+  border-top: 1px solid silver;
+  margin: 40px 0 30px 0;
+  padding-top: 40px;
+  clear: both
 }
 
 a {
@@ -24,22 +46,63 @@ a {
   color: #0000FF;
   font-size: 1em;
 }
+a:hover {
+  text-decoration: underline
+}
+
+.body {
+  margin: 0 30px
+}
+
+ul#info {
+  margin: 30px 0;
+  padding: 0;
+}
+ul#info li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 25px;
+  line-height: 44px;
+  font-style: italic
+}
+
+ul#events {
+  margin: 30px 0;
+  padding: 0;
+}
+ul#events li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+ul#events .unavailable {
+  color: red;
+  font-style: italic
+}
+ul#events .available {
+  font-weight: bold
+}
 
 .logo {
   float: left;
-  width: 24%;
-  height: 210px;
+  width: 300px;
+  height: 190px;
   text-align: center;
-  }
+  font-size: 12px;
+  /* margin-left: 30px*/
+  line-height: 30px
+}
 
-  .logo a {
-    font-size: 1.5em;
-  }
+.logo a {
+  font-size: 1.5em;
+}
 
-
-    .logo a img {
-      height:  100px;
-    }
+.logo a img {
+  height: 80px;
+}
 
 .footer {
   width: 50%;
