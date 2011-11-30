@@ -105,6 +105,8 @@ ul#events .available {
   border: none;
 }
 
-.footer {
-  width: 50%;
+#footer {
+  border-top: 1px solid silver;
+  clear:both;
+  text-align: center;
 }
