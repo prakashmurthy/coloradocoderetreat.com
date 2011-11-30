@@ -109,4 +109,5 @@ ul#events .available {
   border-top: 1px solid silver;
   clear:both;
   text-align: center;
+  padding-bottom: 10px;
 }
