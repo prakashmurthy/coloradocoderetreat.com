@@ -7,7 +7,7 @@ h1 {
 
 .label {
   font-size: 2em;
-  color: #f00;
+  color: #347C17;
 }
 
 h2 {
@@ -17,10 +17,8 @@ h2 {
 
 a {
   text-decoration: none;
-  color: #888;
-  font-weight: bold;
-  font-family: Verdana;
-  font-size: 1.5em;
+  color: #0000FF;
+  font-size: 1em;
 }
 
 .logo {
@@ -31,10 +29,14 @@ a {
   }
 
   .logo a {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 
 
     .logo a img {
       height:  100px;
     }
+
+.footer {
+  width: 50%;
+}
