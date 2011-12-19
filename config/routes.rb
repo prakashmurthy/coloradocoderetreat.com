@@ -2,6 +2,9 @@ Coloradocoderetreat::Application.routes.draw do
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
+  match 'gdcr11' => 'welcome#gdcr11'
+  match 'code_retreat_with_venkat_s' => 'welcome#code_retreat_with_venkat_s'
+
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
   # Keep in mind you can assign values other than :controller and :action
