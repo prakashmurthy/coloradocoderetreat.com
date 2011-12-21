@@ -3,7 +3,7 @@ Coloradocoderetreat::Application.routes.draw do
   # first created -> highest priority.
 
   match 'gdcr11' => 'welcome#gdcr11'
-  match 'code_retreat_with_venkat_s' => 'welcome#code_retreat_with_venkat_s'
+  match 'denver21jan2012' => 'welcome#denver21jan2012'
 
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
