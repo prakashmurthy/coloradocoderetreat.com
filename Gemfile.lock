@@ -33,13 +33,13 @@ GEM
     builder (2.1.2)
     erubis (2.6.6)
       abstract (>= 1.0.0)
-    heroku (2.14.0)
+    heroku (2.19.1)
       launchy (>= 0.3.2)
       rest-client (~> 1.6.1)
       rubyzip
       term-ansicolor (~> 1.0.5)
     i18n (0.5.0)
-    json (1.6.1)
+    json (1.6.5)
     launchy (2.0.5)
       addressable (~> 2.2.6)
     mail (2.2.19)
@@ -49,7 +49,7 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.17.2)
     polyglot (0.3.3)
-    rack (1.2.4)
+    rack (1.2.5)
     rack-mount (0.6.14)
       rack (>= 1.0.0)
     rack-test (0.5.7)
@@ -69,12 +69,12 @@ GEM
       rdoc (~> 3.4)
       thor (~> 0.14.4)
     rake (0.9.2.2)
-    rdoc (3.11)
+    rdoc (3.12)
       json (~> 1.4)
     rest-client (1.6.7)
       mime-types (>= 1.16)
-    rubyzip (0.9.4)
-    sqlite3 (1.3.4)
+    rubyzip (0.9.5)
+    sqlite3 (1.3.5)
     term-ansicolor (1.0.7)
     thor (0.14.6)
     treetop (1.4.10)
@@ -86,6 +86,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  heroku
+  heroku (= 2.19.1)
   rails (= 3.0.9)
-  sqlite3
+  sqlite3 (= 1.3.5)
